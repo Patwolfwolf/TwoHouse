@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OneHouse</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second_level">secondLevel</string>
+    <string name="title_activity_secon_level_physics">seconLevelPhysics</string>
+    <string name="title_activity_thrid_level_geometry">thridLevelGeometry</string>
+    <string name="title_activity_rectangle_def">rectangleDef</string>
+</resources>
