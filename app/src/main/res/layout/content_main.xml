@@ -14,7 +14,7 @@
     tools:showIn="@layout/app_bar_main">
 
     <TextView
-        android:text="This is a text view"
+        android:text="This is Answer!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text01"
@@ -22,7 +22,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textSize="25sp" />
 
     <ListView
         android:layout_width="match_parent"
@@ -35,11 +36,11 @@
         android:layout_marginTop="31dp" />
 
     <Button
-        android:text="TestButton"
+        android:text="Calculate!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/calText1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="69dp" />
@@ -49,11 +50,20 @@
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/calText1"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:singleLine="false"
         tools:text="Calculator"
         android:layout_below="@+id/text01"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:text='"\n"' />
+
+    <Button
+        android:text="Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_above="@+id/list01"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
